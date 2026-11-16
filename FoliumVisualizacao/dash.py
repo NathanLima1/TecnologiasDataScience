@@ -20,8 +20,8 @@ st.set_page_config(
 # Título e Introdução
 st.title("📊 Mapeamento Eleitoral e Visualização Geoespacial (SJDR)")
 st.markdown("""
-Dashboard desenvolvido para a disciplina de **Tecnologias para Data Science** (DCOMP/UFSJ) — Prof.ª Carolina Ribeiro Xavier.  
-**Autores:** Nathan Mateus de Lima e Vítor Oliveira Amorim
+Dashboard desenvolvido para a disciplina de **Tecnologias para Data Science** (DCOMP/UFSJ) — Prof.ª Carolina Ribeiro Xavier.    
+**Autores:** Nathan Mateus de Lima e Vítor Oliveira Amorim  
 """)
 
 # Barra Lateral (Sidebar) - Controles e Filtros
