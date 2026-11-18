@@ -6,7 +6,7 @@ from folium.plugins import Fullscreen, DualMap
 import plotly.express as px
 import pathlib
 import math
-from pathlib impor Path
+from pathlib import Path
 
 from streamlit_folium import st_folium
 
