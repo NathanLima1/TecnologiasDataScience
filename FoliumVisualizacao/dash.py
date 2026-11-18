@@ -6,6 +6,7 @@ from folium.plugins import Fullscreen, DualMap
 import plotly.express as px
 import pathlib
 import math
+from pathlib impor Path
 
 from streamlit_folium import st_folium
 
@@ -54,7 +55,8 @@ def get_candidate_color(party: int) -> str:
 
 @st.cache_data
 def carregar_dados():
-    data_path = pathlib.Path('./data/votacao_sjdr.csv')
+    base_dir = pathlib.Path(__file__).parent
+    data_path = base_dir / 'data' / 'votacao_sjdr.csv'
     df = pd.read_csv(data_path, sep=',')
     
     # Tratamento de coordenadas
